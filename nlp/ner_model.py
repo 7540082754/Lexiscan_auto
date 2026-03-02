@@ -1,7 +1,7 @@
 import spacy
 import re
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_bm")
 
 def extract_entities(text):
     doc = nlp(text)

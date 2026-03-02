@@ -1,6 +1,6 @@
 import pdfplumber
 import pytesseract
-from PIL import Image
+from pil import Image
 
 def extract_text_from_pdf(file_path):
     text = ""

@@ -11,7 +11,7 @@ def validate_entities(entities):
         if re.match(date_pattern, d)
     ]
 
-    # Validate amounts contain currency symbol
+    # Validate amounts contain currency symbol doller
     validated["amounts"] = [
         a for a in entities["amounts"]
         if "$" in a or "USD" in a
